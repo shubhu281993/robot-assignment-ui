@@ -12,6 +12,11 @@ cd project
 
 npm install
 
+## Playground
+
+Explore the UI by visiting following URL:
+http://robotapp.southindia.cloudapp.azure.com/
+
 ## How to Play
 
 The game is pre-configured with a default table size of 5x5, and the robot's starting position is at coordinates (0,0) facing 'North'.
