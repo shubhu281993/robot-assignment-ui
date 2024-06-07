@@ -11,12 +11,14 @@ git clone https://github.com/shubhu281993/robot-assignment-ui.git
 cd project
 npm install
 
-### How to Play
+How to Play
+The game is set up with a default table size of 5x5, and the robot's initial coordinates are (0,0) facing 'North'.
 
-To play this game, i have provided default table size as 5, x-cordinate and y-coordinate of the robot as (0,0) and direction as 'North'
+Starting the Game
+Click on the "Place Robot" button to position the robot at your desired location on the table.
+You can set the dimensions of the table and change the robot's direction to 'Left' or 'Right'.
+After adjusting the settings, click on "Move" to command the robot.
+Reporting
+The robot's current position is displayed on a card with labels for the x-coordinate, y-coordinate, and the direction it is facing.
 
-Now you can click on Place Robot button to place the robot in your desirable place, with desired dimensions of table and then change the direction Left or Right oof the robot and Click on Move.
-
-For Report, the current position of robot is captured in the card with x,y and direction facing labels.
-
-Enjoy!!
+Enjoy the game!
