@@ -11,7 +11,7 @@ git clone https://github.com/shubhu281993/robot-assignment-ui.git
 cd project
 npm install
 
-## How to Play
+### How to Play
 
 To play this game, i have provided default table size as 5, x-cordinate and y-coordinate of the robot as (0,0) and direction as 'North'
 
