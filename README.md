@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Robot UI project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This UI project is built on React JS framework and is consuming dot net core 8.0 apis.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+Instructions on how to install the project, for example:
 
-### `npm start`
+git clone https://github.com/shubhu281993/robot-assignment-ui.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+cd project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
 
-### `npm test`
+## Playground
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Explore the UI by visiting following URL:
+http://robotapp.southindia.cloudapp.azure.com/
 
-### `npm run build`
+## How to Play
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The game is pre-configured with a default table size of 5x5, and the robot's starting position is at coordinates (0,0) facing 'North'.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To play the game:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Click on the "Place Robot" button to place the robot at your desired location on the table.
+2. Set the dimensions of the table and choose the robot's direction by selecting 'Left' or 'Right'.
+3. Click on "Move" to command the robot to move in the chosen direction.
 
-### `npm run eject`
+To get a report of the robot's current position:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- The robot's current position is shown on a card with labels for the x-coordinate, y-coordinate, and the direction it is facing.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy the game!
