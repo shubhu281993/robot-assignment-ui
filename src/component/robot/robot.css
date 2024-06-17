@@ -1,0 +1,39 @@
+.robot.north {
+  transform: rotate(0deg);
+}
+
+.robot.east {
+  transform: rotate(90deg);
+}
+.robot.south {
+  transform: rotate(180deg);
+}
+.robot.west {
+  transform: rotate(-90deg);
+}
+.transition-transform {
+  transition: transform 0.5s;
+}
+.footer.footer-bar {
+  padding: 25px 0;
+}
+.footer {
+  padding: 60px 0;
+  position: relative;
+  color: black;
+}
+.footer .footer-logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+#stickyFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6c757d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 999;
+}
